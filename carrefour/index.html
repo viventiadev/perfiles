@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+<!--
+@import url("styles2.css");
+-->
+</style>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+    <title>Cuestionario de Perfiles de Innovación</title>
+  </head>
+ 
+  <h1
+    style="text-align: center; margin: 20px 20px; font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;">
+     Cuestionario de Perfiles de Innovación<br>para:</h1>
+     <div>
+    <img class="imgcenter" src="logo-cliente.png" >
+  </div>
+<body>
+
+
+  <form id="myform" method="post" action="https://en5m4h8bry6kq7g.m.pipedream.net" onSubmit="return validar();">
+    <fieldset style="border: 0px">
+      <div class="info">
+        <p><b>Este cuestionario está ideado para describir el método individual que cada persona tiene cuando resuelve
+          problemas y afronta situaciones de innovación.</b>
+
+        </p>
+      </div>
+      <div class="info">Por favor dé una puntuación más elevada a aquellas palabras que mejor definan la forma en que
+        usted resuelve sus problemas y puntúe bajo aquellos términos que en menor grado caractericen su estilo de
+        resolver problemas. Si cree que ninguna de ellas se ajusta correctamente o no considera que ningún término lo
+        define correctamente, use su propia intuición para dar la respuesta.
+        <br><br>
+        Seguramente encontrará cierta dificultad en escoger las palabras que mejor describan su propio estilo de
+        resolución de problemas porque no existen respuestas correctas o incorrectas. El propósito de este cuestionario
+        es precisamente ayudar a describir como usted resuelve sus problemas y no evaluar su habilidad en resolverlos.
+        No hay, por tanto, respuestas incorrectas.</div>
+      <div class="warning">
+        <p>Instrucciones : Se relacionan 18 grupos (numerados del 1 al 18 ) de 4 conceptos que están expuestos en
+          líneas horizontales. <br><br>En cada línea horizontal puntúe con 4 puntos el concepto que mejor caracterice su
+          estilo de resolución de problemas, con 3 puntos al siguiente termino que mejor lo haga, con 2 puntos al
+          siguiente y con 1 punto al concepto que crea que menos características tiene su propio estilo. <br>No se
+          pueden repetir números en cada fila horizontal.
+        </p>
+      </div>
+      <table>
+        <div id="warning2"></div>
+        <caption>Datos Personales (Los campos en * son requeridos)</caption>
+        <tbody>
+          <tr class="odd">
+            <td width="50%"><label>Nombre o seudónimo:*<span class="indicacionform"></span></label></td>
+            <td width="50%"><input type="text" name="nombre" id="nombre" size="25" class="required" value="" /></td>
+          </tr>
+          <tr>
+            <td width="50%"><label>Empresa:<span class="indicacionform"></span></label></td>
+            <td width="50%"><input type="text" name="empresa" id="empresa" size="25" value="" /></td>
+          </tr>
+          <tr class="odd">
+            <td width="50%"><label>Departamento:<span class="indicacionform"></span></label></td>
+            <td width="50%"><input type="text" name="departamento" id="departamento" size="25" value="" /></td>
+          </tr>
+          <tr>
+            <td width="40%"><label>Email:<span class="indicacionform"></span></label></td>
+            <td width="60%"><input type="email" name="email" id="email" size="25" value="" /></td>
+          </tr>
+          <tr class="odd">
+            <td width="50%"><label>Referencia:*<span class="indicacionform"></span></label></td>
+            <td width="50%"><input type="number" name="referencia" id="referencia" size="25" class="required" value="" /></td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="overflow-x:auto;">
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row" class="column1">1</th>
+            <td width="20%">Afronto los problemas de forma activa</td>
+            <td width="5%"><input type="number" name="q1" id="q1" size="3" value="" class="number" min="1" max="4"
+                min="1" max="4" /></td>
+            <td width="20%">Primero pienso antes de actuar</td>
+            <td width="5%"><input type="number" name="q2" id="q2" size="3" value="" class="number" min="1" max="4"
+                min="1" max="4" /></td>
+            <td width="20%">Siempre estoy preparado</td>
+            <td width="5%"><input type="number" name="q3" id="q3" size="3" value="" class="number" min="1" max="4"
+                min="1" max="4" /></td>
+            <td width="20%">A veces me pierde la ansiedad</td>
+            <td width="5%"><input type="number" name="q4" id="q4" size="3" value="" class="number" min="1" max="4"
+                min="1" max="4" /></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">2</th>
+            <td width="20%">Soy muy paciente a la hora de actuar</td>
+            <td width="5%"><input type="number" name="q5" id="q5" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Soy rápido, diligente</td>
+            <td width="5%"><input type="number" name="q6" id="q6" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Frío y distante: no me involucro</td>
+            <td width="5%"><input type="number" name="q7" id="q7" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Empatizo en demasía</td>
+            <td width="5%"><input type="number" name="q8" id="q8" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">3</th>
+            <td width="20%">Activo: prefiero actuar de inmediato</td>
+            <td width="5%"><input type="number" name="q9" id="q9" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Creativo: pruebo posibilidades</td>
+            <td width="5%"><input type="number" name="q10" id="q10" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Reflexivo: tomo distancia antes de actuar</td>
+            <td width="5%"><input type="number" name="q11" id="q11" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Pragmático: me centro en lo que funciona</td>
+            <td width="5%"><input type="number" name="q12" id="q12" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">4</th>
+            <td width="20%">Voy a lo práctico y concreto</td>
+            <td width="5%"><input type="number" name="q13" id="q13" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Voy a lo concreto, pero diversifico</td>
+            <td width="5%"><input type="number" name="q14" id="q14" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Lo miro de forma global para entender</td>
+            <td width="5%"><input type="number" name="q15" id="q15" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Me centro en  normas y procedimientos  </td>
+            <td width="5%"><input type="number" name="q16" id="q16" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">5</th>
+            <td width="20%">Extrovertido</td>
+            <td width="5%"><input type="number" name="q17" id="q17" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Introvertido</td>
+            <td width="5%"><input type="number" name="q18" id="q18" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Juguetón</td>
+            <td width="5%"><input type="number" name="q19" id="q19" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Serio</td>
+            <td width="5%"><input type="number" name="q20" id="q20" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">6</th>
+            <td width="20%">Aprendo por ensayo y error</td>
+            <td width="5%"><input type="number" name="q21" id="q21" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Busco y propongo alternativas diferentes</td>
+            <td width="5%"><input type="number" name="q22" id="q22" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Sopeso pros y contras antes de actuar</td>
+            <td width="5%"><input type="number" name="q23" id="q23" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Me ajusto a los modelos y normas</td>
+            <td width="5%"><input type="number" name="q24" id="q24" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">7</th>
+            <td width="20%">Actúo de forma concreta</td>
+            <td width="5%"><input type="number" name="q25" id="q25" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Abro la mente</td>
+            <td width="5%"><input type="number" name="q26" id="q26" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Busco un modelo para entender</td>
+            <td width="5%"><input type="number" name="q27" id="q27" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Busco un modelo para aplicar</td>
+            <td width="5%"><input type="number" name="q28" id="q28" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">8</th>
+            <td width="20%">¿Qué hay qué hacer?</td>
+            <td width="5%"><input type="number" name="q29" id="q29" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">¿Dónde se puede aplicar?</td>
+            <td width="5%"><input type="number" name="q30" id="q30" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">¿A dónde queremos llegar?</td>
+            <td width="5%"><input type="number" name="q31" id="q31" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">¿Cómo hay que hacerlo?</td>
+            <td width="5%"><input type="number" name="q32" id="q32" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">9</th>
+            <td width="20%">Me meto de lleno en el problema</td>
+            <td width="5%"><input type="number" name="q33" id="q33" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Cambio perspectivas y propongo visiones</td>
+            <td width="5%"><input type="number" name="q34" id="q34" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Teorizo y busco modelos funcionales</td>
+            <td width="5%"><input type="number" name="q35" id="q35" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Busco las mejores prácticas</td>
+            <td width="5%"><input type="number" name="q36" id="q36" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">10</th>
+            <td width="20%">Soy una persona tranquila</td>
+            <td width="5%"><input type="number" name="q37" id="q37" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Soy una persona fiable</td>
+            <td width="5%"><input type="number" name="q38" id="q38" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Soy una persona alocada</td>
+            <td width="5%"><input type="number" name="q39" id="q39" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Soy una persona muy emocional</td>
+            <td width="5%"><input type="number" name="q40" id="q40" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">11</th>
+            <td width="20%">Realizador y ejecutor</td>
+            <td width="5%"><input type="number" name="q41" id="q41" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Intuitivo e imaginativo</td>
+            <td width="5%"><input type="number" name="q42" id="q42" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Visualizador y teorizador</td>
+            <td width="5%"><input type="number" name="q43" id="q43" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Analizador y evaluador</td>
+            <td width="5%"><input type="number" name="q44" id="q44" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">12</th>
+            <td width="20%">¿Qué es lo que funciona?</td>
+            <td width="5%"><input type="number" name="q45" id="q45" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Si funciona, rómpelo</td>
+            <td width="5%"><input type="number" name="q46" id="q46" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">¿Por qué funciona?</td>
+            <td width="5%"><input type="number" name="q47" id="q47" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Si funciona, no lo toques</td>
+            <td width="5%"><input type="number" name="q48" id="q48" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">13</th>
+            <td width="20%">Actúo físicamente, de forma personal</td>
+            <td width="5%"><input type="number" name="q49" id="q49" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Genero opiniones y posibilidades</td>
+            <td width="5%"><input type="number" name="q50" id="q50" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Pienso sobre los modelos explicativos</td>
+            <td width="5%"><input type="number" name="q51" id="q51" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Analizo lo óptimo para llevar a la práctica</td>
+            <td width="5%"><input type="number" name="q52" id="q52" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">14</th>
+            <td width="20%">Impersonal</td>
+            <td width="5%"><input type="number" name="q53" id="q53" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Orgulloso</td>
+            <td width="5%"><input type="number" name="q54" id="q54" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Paciente</td>
+            <td width="5%"><input type="number" name="q55" id="q55" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Solidario</td>
+            <td width="5%"><input type="number" name="q56" id="q56" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">15</th>
+            <td width="20%">Pregunto: ¿qué y para qué?</td>
+            <td width="5%"><input type="number" name="q57" id="q57" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Pregunto: ¿para qué y por qué?</td>
+            <td width="5%"><input type="number" name="q58" id="q58" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Pregunto: ¿por qué y cómo?</td>
+            <td width="5%"><input type="number" name="q59" id="q59" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Pregunto: ¿cómo y qué?</td>
+            <td width="5%"><input type="number" name="q60" id="q60" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">16</th>
+            <td width="20%">Ejecuto a la primera</td>
+            <td width="5%"><input type="number" name="q61" id="q61" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Especulo posibilidades</td>
+            <td width="5%"><input type="number" name="q62" id="q62" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Examino globalmente</td>
+            <td width="5%"><input type="number" name="q63" id="q63" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Analizo y juzgo</td>
+            <td width="5%"><input type="number" name="q64" id="q64" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">17</th>
+            <td width="20%">Comprensivo</td>
+            <td width="5%"><input type="number" name="q65" id="q65" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Pragmático</td>
+            <td width="5%"><input type="number" name="q66" id="q66" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Emocional</td>
+            <td width="5%"><input type="number" name="q67" id="q67" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Racional</td>
+            <td width="5%"><input type="number" name="q68" id="q68" size="3" value="" class="number" min="1" max="4" />
+            </td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">18</th>
+            <td width="20%">Busco el contacto</td>
+            <td width="5%"><input type="number" name="q69" id="q69" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Fabulo posibilidades</td>
+            <td width="5%"><input type="number" name="q70" id="q70" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Analizo de forma abstracta</td>
+            <td width="5%"><input type="number" name="q71" id="q71" size="3" value="" class="number" min="1" max="4" />
+            </td>
+            <td width="20%">Me aseguro de cada paso</td>
+            <td width="5%"><input type="number" name="q72" id="q72" size="3" value="" class="number" min="1" max="4"
+                min="1" max="4" /></td>
+          </tr>
+          <tr>
+            <td colspan="9"><input name="submit" class="pure-material-button-contained button" type="submit"
+                value="Enviar Respuestas"/></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </fieldset>
+  </form>
+
+</body>
+<script src="jquery-latest.js" type="text/javascript"></script> 
+
+<script src="jquery.validate.js" type=“text/javascript”></script>
+
+
+<script>
+  function alertaPuntosTotales() {
+    var pregunta1 = document.getElementById("q1").value;
+var pregunta2 = document.getElementById("q2").value;
+var pregunta3 = document.getElementById("q3").value;
+var pregunta4 = document.getElementById("q4").value;
+var pregunta5 = document.getElementById("q5").value;
+var pregunta6 = document.getElementById("q6").value;
+var pregunta7 = document.getElementById("q7").value;
+var pregunta8 = document.getElementById("q8").value;
+var pregunta9 = document.getElementById("q9").value;
+var pregunta10 = document.getElementById("q10").value;
+var pregunta11 = document.getElementById("q11").value;
+var pregunta12 = document.getElementById("q12").value;
+var pregunta13 = document.getElementById("q13").value;
+var pregunta14 = document.getElementById("q14").value;
+var pregunta15 = document.getElementById("q15").value;
+var pregunta16 = document.getElementById("q16").value;
+var pregunta17 = document.getElementById("q17").value;
+var pregunta18 = document.getElementById("q18").value;
+var pregunta19 = document.getElementById("q19").value;
+var pregunta20 = document.getElementById("q20").value;
+var pregunta21 = document.getElementById("q21").value;
+var pregunta22 = document.getElementById("q22").value;
+var pregunta23 = document.getElementById("q23").value;
+var pregunta24 = document.getElementById("q24").value;
+var pregunta25 = document.getElementById("q25").value;
+var pregunta26 = document.getElementById("q26").value;
+var pregunta27 = document.getElementById("q27").value;
+var pregunta28 = document.getElementById("q28").value;
+var pregunta29 = document.getElementById("q29").value;
+var pregunta30 = document.getElementById("q30").value;
+var pregunta31 = document.getElementById("q31").value;
+var pregunta32 = document.getElementById("q32").value;
+var pregunta33 = document.getElementById("q33").value;
+var pregunta34 = document.getElementById("q34").value;
+var pregunta35 = document.getElementById("q35").value;
+var pregunta36 = document.getElementById("q36").value;
+var pregunta37 = document.getElementById("q37").value;
+var pregunta38 = document.getElementById("q38").value;
+var pregunta39 = document.getElementById("q39").value;
+var pregunta40 = document.getElementById("q40").value;
+var pregunta41 = document.getElementById("q41").value;
+var pregunta42 = document.getElementById("q42").value;
+var pregunta43 = document.getElementById("q43").value;
+var pregunta44 = document.getElementById("q44").value;
+var pregunta45 = document.getElementById("q45").value;
+var pregunta46 = document.getElementById("q46").value;
+var pregunta47 = document.getElementById("q47").value;
+var pregunta48 = document.getElementById("q48").value;
+var pregunta49 = document.getElementById("q49").value;
+var pregunta50 = document.getElementById("q50").value;
+var pregunta51 = document.getElementById("q51").value;
+var pregunta52 = document.getElementById("q52").value;
+var pregunta53 = document.getElementById("q53").value;
+var pregunta54 = document.getElementById("q54").value;
+var pregunta55 = document.getElementById("q55").value;
+var pregunta56 = document.getElementById("q56").value;
+var pregunta57 = document.getElementById("q57").value;
+var pregunta58 = document.getElementById("q58").value;
+var pregunta59 = document.getElementById("q59").value;
+var pregunta60 = document.getElementById("q60").value;
+var pregunta61 = document.getElementById("q61").value;
+var pregunta62 = document.getElementById("q62").value;
+var pregunta63 = document.getElementById("q63").value;
+var pregunta64 = document.getElementById("q64").value;
+var pregunta65 = document.getElementById("q65").value;
+var pregunta66 = document.getElementById("q66").value;
+var pregunta67 = document.getElementById("q67").value;
+var pregunta68 = document.getElementById("q68").value;
+var pregunta69 = document.getElementById("q69").value;
+var pregunta70 = document.getElementById("q70").value;
+var pregunta71 = document.getElementById("q71").value;
+var pregunta72 = document.getElementById("q72").value;
+var totalTabla = parseInt(pregunta1) + parseInt(pregunta2) + parseInt(pregunta3) + parseInt(pregunta4) + parseInt(pregunta5) + parseInt(pregunta6) + parseInt(pregunta7) + parseInt(pregunta8) + parseInt(pregunta9) + parseInt(pregunta10) + parseInt(pregunta11) + parseInt(pregunta12) + parseInt(pregunta13) + parseInt(pregunta14) + parseInt(pregunta15) + parseInt(pregunta16) + parseInt(pregunta17) + parseInt(pregunta18) + parseInt(pregunta19) + parseInt(pregunta20) + parseInt(pregunta21) + parseInt(pregunta22) + parseInt(pregunta23) + parseInt(pregunta24) + parseInt(pregunta25) + parseInt(pregunta26) + parseInt(pregunta27) + parseInt(pregunta28) + parseInt(pregunta29) + parseInt(pregunta30) + parseInt(pregunta31) + parseInt(pregunta32) + parseInt(pregunta33) + parseInt(pregunta34) + parseInt(pregunta35) + parseInt(pregunta36) + parseInt(pregunta37) + parseInt(pregunta38) + parseInt(pregunta39) + parseInt(pregunta40) + parseInt(pregunta41) + parseInt(pregunta42) + parseInt(pregunta43) + parseInt(pregunta44) + parseInt(pregunta45) + parseInt(pregunta46) + parseInt(pregunta47) + parseInt(pregunta48) + parseInt(pregunta49) + parseInt(pregunta50) + parseInt(pregunta51) + parseInt(pregunta52) + parseInt(pregunta53) + parseInt(pregunta54) + parseInt(pregunta55) + parseInt(pregunta56) + parseInt(pregunta57) + parseInt(pregunta58) + parseInt(pregunta59) + parseInt(pregunta60) + parseInt(pregunta61) + parseInt(pregunta62) + parseInt(pregunta63) + parseInt(pregunta64) + parseInt(pregunta65) + parseInt(pregunta66) + parseInt(pregunta67) + parseInt(pregunta68) + parseInt(pregunta69) + parseInt(pregunta70) + parseInt(pregunta71) + parseInt(pregunta72);
+
+
+            if(totalTabla == 180){
+                return true;
+           }
+           else{
+               alert("Revisa tus respuestas. Recuerda que en ninguna fila puedes repetir los valores 1,2,3 y 4");
+               return false;
+           }
+    }
+</script>
+<script>
+function nombreForm() {
+  var name = document.getElementById("nombre").value;
+
+  if (name == "") {
+    alert("No olvides llenar el campo de nombre o seudónimo");
+    return false;
+  }
+}
+</script>
+<script>
+function referenciaForm() {
+  var ref = document.getElementById("referencia").value;
+
+  if (ref == "") {
+    alert("No olvides llenar el campo de referencia con el número que te dieron en la sesión");
+    return false;
+  }
+}
+</script>
+<script>
+function validar() {
+    var puntos = alertaPuntosTotales();
+        nombre = nombreForm(); 
+        refer = referenciaForm();  
+    return puntos && nombre && refer;
+}
+</script>
+</html>
