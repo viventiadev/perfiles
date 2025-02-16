@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <style type="text/css">
       <!--
-      @import url("styles2.css");
+      @import url("/styles2.css");
       -->
     </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Cuestionario de Perfiles de Innovación</title>
-    <script src="scripts/validation.js"></script>
+    <script src="/scripts/validation.js"></script>
   </head>
 
   <h1
@@ -24,65 +24,68 @@
         sans-serif;
     "
   >
-    Cuestionario de Perfiles de Innovación
+    Innovation Profile Questionnaire
   </h1>
   <div>
-    <img class="imgcenter" src="logo-cliente.png" />
+    <img class="imgcenter" src="/logo-cliente.png" />
   </div>
   <body>
     <form
       id="myform"
       method="post"
-      action="https://viventia-backend-674257393585.us-central1.run.app/results/es"
-      onSubmit="return validate('es');"
+      action="https://viventia-backend-674257393585.us-central1.run.app/results/en"
+      onSubmit="return validate('en');"
     >
       <fieldset style="border: 0px">
         <div class="info">
           <p>
-            <b
-              >Este cuestionario está ideado para describir el método individual
-              que cada persona tiene cuando resuelve problemas y afronta
-              situaciones de innovación.</b
-            >
+            <b>
+              This questionnaire is designed to describe the individual method
+              that each person has when solving problems and facing innovative
+              situations.
+            </b>
           </p>
         </div>
         <div class="info">
-          Por favor dé una puntuación más elevada a aquellas palabras que mejor
-          definan la forma en que usted resuelve sus problemas y puntúe bajo
-          aquellos términos que en menor grado caractericen su estilo de
-          resolver problemas. Si cree que ninguna de ellas se ajusta
-          correctamente o no considera que ningún término lo define
-          correctamente, use su propia intuición para dar la respuesta.
+          Please give a high score to those words that best define the way you
+          solve your problems and score low those terms that to a lesser degree
+          characterize your problem-solving style.
           <br /><br />
-          Seguramente encontrará cierta dificultad en escoger las palabras que
-          mejor describan su propio estilo de resolución de problemas porque no
-          existen respuestas correctas o incorrectas. El propósito de este
-          cuestionario es precisamente ayudar a describir como usted resuelve
-          sus problemas y no evaluar su habilidad en resolverlos. No hay, por
-          tanto, respuestas incorrectas.
+          If you think that none of them fits correctly or you do not consider
+          that any term defines it correctly, use your own intuition to give the
+          answer. You may find it difficult to choose the words that best
+          describe your own problem-solving style as there are no right or wrong
+          answers. Different characteristics are equally good. The purpose of
+          this questionnaire is to help describe how you solve your problems and
+          not to evaluate your ability to solve t hem. Therefore, there are no
+          wrong answers.
         </div>
         <div class="warning">
           <p>
-            Instrucciones : Se relacionan 18 grupos (numerados del 1 al 18 ) de
-            4 conceptos que están expuestos en líneas horizontales.
-            <br /><br />En cada línea horizontal puntúe con 4 puntos el concepto
-            que mejor caracterice su estilo de resolución de problemas, con 3
-            puntos al siguiente termino que mejor lo haga, con 2 puntos al
-            siguiente y con 1 punto al concepto que crea que menos
-            características tiene su propio estilo. <br />No se pueden repetir
-            números en cada fila horizontal.
+            Directions: This page will display 18 groups of 4 words in
+            horizontal line. Rank each of the 18 sets of words from 4 to 1.
+            <br />
+            <br />
+            On each horizontal line, assign 4 points to the concept that best
+            characterizes your problem-solving style, 3 points to the next term
+            that best does it, 2 points to the next, and 1 point to the concept
+            that you think least characterizes your style.
+            <br />
+            You must rate the four concepts in each row with different numbers.
+            <br />
+            The total for each row must be 10.
           </p>
         </div>
         <table>
           <div id="warning2"></div>
           <caption>
-            Datos Personales (Los campos en * son requeridos)
+            Personal Data (Fields with * are required)
           </caption>
           <tbody>
             <tr class="odd">
               <td width="50%">
                 <label
-                  >Nombre o seudónimo:*<span class="indicacionform"></span
+                  >Name or pseudonym:*<span class="indicacionform"></span
                 ></label>
               </td>
               <td width="50%">
@@ -98,7 +101,7 @@
             </tr>
             <tr>
               <td width="50%">
-                <label>Empresa:<span class="indicacionform"></span></label>
+                <label>Organization:<span class="indicacionform"></span></label>
               </td>
               <td width="50%">
                 <input
@@ -112,7 +115,7 @@
             </tr>
             <tr class="odd">
               <td width="50%">
-                <label>Departamento:<span class="indicacionform"></span></label>
+                <label>Department::<span class="indicacionform"></span></label>
               </td>
               <td width="50%">
                 <input
@@ -140,7 +143,7 @@
             </tr>
             <tr class="odd">
               <td width="50%">
-                <label>Referencia:*<span class="indicacionform"></span></label>
+                <label>Reference::*<span class="indicacionform"></span></label>
               </td>
               <td width="50%">
                 <input
@@ -160,7 +163,7 @@
             <tbody>
               <tr>
                 <th scope="row" class="column1">1</th>
-                <td width="20%">Afronto los problemas de forma activa</td>
+                <td width="20%">I face problems actively</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -173,7 +176,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Primero pienso antes de actuar</td>
+                <td width="20%">I think before I act</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -186,7 +189,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Siempre estoy preparado</td>
+                <td width="20%">Always ready</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -199,7 +202,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">A veces me pierde la ansiedad</td>
+                <td width="20%">Eager</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -215,7 +218,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">2</th>
-                <td width="20%">Soy muy paciente a la hora de actuar</td>
+                <td width="20%">When it comes to acting, I am very patient</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -228,7 +231,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Soy rápido, diligente</td>
+                <td width="20%">I am fast, diligent</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -241,7 +244,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Frío y distante: no me involucro</td>
+                <td width="20%">Analytical</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -254,7 +257,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Empatizo en demasía</td>
+                <td width="20%">I empathize too much</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -270,7 +273,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">3</th>
-                <td width="20%">Activo: prefiero actuar de inmediato</td>
+                <td width="20%">Active: I rather act immediately</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -283,7 +286,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Creativo: pruebo posibilidades</td>
+                <td width="20%">Creative: I try possibilities</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -296,7 +299,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Reflexivo: tomo distancia antes de actuar</td>
+                <td width="20%">Observing in a distance</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -309,7 +312,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Pragmático: me centro en lo que funciona</td>
+                <td width="20%">Pragmatic: I focus on what works</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -325,7 +328,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">4</th>
-                <td width="20%">Voy a lo práctico y concreto</td>
+                <td width="20%">I go for practical and concrete</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -338,7 +341,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Voy a lo concreto, pero diversifico</td>
+                <td width="20%">I go to the concrete things, but diversify</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -351,7 +354,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Lo miro de forma global para entender</td>
+                <td width="20%">I give a global look to understand</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -364,7 +367,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Me centro en normas y procedimientos</td>
+                <td width="20%">I focus on rules and procedures</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -380,7 +383,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">5</th>
-                <td width="20%">Extrovertido</td>
+                <td width="20%">Outgoing</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -393,7 +396,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Introvertido</td>
+                <td width="20%">Reserved</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -406,7 +409,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Juguetón</td>
+                <td width="20%">Playful</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -419,7 +422,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Serio</td>
+                <td width="20%">Serious</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -435,7 +438,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">6</th>
-                <td width="20%">Aprendo por ensayo y error</td>
+                <td width="20%">I learn by trial and error</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -448,7 +451,9 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Busco y propongo alternativas diferentes</td>
+                <td width="20%">
+                  I look for and propose different alternatives
+                </td>
                 <td width="5%">
                   <input
                     type="number"
@@ -461,7 +466,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Sopeso pros y contras antes de actuar</td>
+                <td width="20%">I analyze pros and cons before acting</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -474,7 +479,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Me ajusto a los modelos y normas</td>
+                <td width="20%">I adjust to the models and norms</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -490,7 +495,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">7</th>
-                <td width="20%">Actúo de forma concreta</td>
+                <td width="20%">I act in a concrete way</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -503,7 +508,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Abro la mente</td>
+                <td width="20%">Open minded, divergent</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -516,7 +521,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Busco un modelo para entender</td>
+                <td width="20%">I look for a model to understand</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -529,7 +534,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Busco un modelo para aplicar</td>
+                <td width="20%">I look for a model to apply</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -545,7 +550,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">8</th>
-                <td width="20%">¿Qué hay qué hacer?</td>
+                <td width="20%">Straight to what has to be done</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -558,7 +563,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">¿Dónde se puede aplicar?</td>
+                <td width="20%">Where can it be applied?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -571,7 +576,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">¿A dónde queremos llegar?</td>
+                <td width="20%">Where do we want to go?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -584,7 +589,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">¿Cómo hay que hacerlo?</td>
+                <td width="20%">How should it be done?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -600,7 +605,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">9</th>
-                <td width="20%">Me meto de lleno en el problema</td>
+                <td width="20%">I get involved in the problem</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -613,7 +618,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Cambio perspectivas y propongo visiones</td>
+                <td width="20%">I change perspectives and propose visions</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -626,7 +631,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Teorizo y busco modelos funcionales</td>
+                <td width="20%">I theorize and look for functional models</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -639,7 +644,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Busco las mejores prácticas</td>
+                <td width="20%">I look for the best practices</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -655,7 +660,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">10</th>
-                <td width="20%">Soy una persona tranquila</td>
+                <td width="20%">I am a quiet person</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -668,7 +673,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Soy una persona fiable</td>
+                <td width="20%">Trustworthy</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -681,7 +686,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Soy una persona alocada</td>
+                <td width="20%">I am a crazy person</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -694,7 +699,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Soy una persona muy emocional</td>
+                <td width="20%">I am a very emotional person</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -710,7 +715,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">11</th>
-                <td width="20%">Realizador y ejecutor</td>
+                <td width="20%">Execute and implement</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -723,7 +728,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Intuitivo e imaginativo</td>
+                <td width="20%">Intuitive and imaginative</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -736,7 +741,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Visualizador y teorizador</td>
+                <td width="20%">Visualizer and theorizer</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -749,7 +754,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Analizador y evaluador</td>
+                <td width="20%">Analyzer and evaluator</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -765,7 +770,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">12</th>
-                <td width="20%">¿Qué es lo que funciona?</td>
+                <td width="20%">What works?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -778,7 +783,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Si funciona, rómpelo</td>
+                <td width="20%">If it works, break it</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -791,7 +796,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">¿Por qué funciona?</td>
+                <td width="20%">Why does it work?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -804,7 +809,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Si funciona, no lo toques</td>
+                <td width="20%">If it works, do not touch it</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -820,7 +825,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">13</th>
-                <td width="20%">Actúo físicamente, de forma personal</td>
+                <td width="20%">I act physically, personally</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -833,7 +838,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Genero opiniones y posibilidades</td>
+                <td width="20%">I generate opinions and possibilities</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -846,7 +851,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Pienso sobre los modelos explicativos</td>
+                <td width="20%">I think about explanatory models</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -859,7 +864,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Analizo lo óptimo para llevar a la práctica</td>
+                <td width="20%">I analyze the optimal to put into practice</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -888,7 +893,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Orgulloso</td>
+                <td width="20%">Proud</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -901,7 +906,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Paciente</td>
+                <td width="20%">Patient</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -914,7 +919,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Solidario</td>
+                <td width="20%">Solidary</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -930,7 +935,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">15</th>
-                <td width="20%">Pregunto: ¿qué y para qué?</td>
+                <td width="20%">I ask: what and what for?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -943,7 +948,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Pregunto: ¿para qué y por qué?</td>
+                <td width="20%">I ask: what for and why?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -956,7 +961,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Pregunto: ¿por qué y cómo?</td>
+                <td width="20%">I ask: why and how?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -969,7 +974,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Pregunto: ¿cómo y qué?</td>
+                <td width="20%">I ask: how and what?</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -985,7 +990,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">16</th>
-                <td width="20%">Ejecuto a la primera</td>
+                <td width="20%">I handle things immediately</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -998,7 +1003,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Especulo posibilidades</td>
+                <td width="20%">I speculate possibilities</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1011,7 +1016,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Examino globalmente</td>
+                <td width="20%">I analyze globally</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1024,7 +1029,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Analizo y juzgo</td>
+                <td width="20%">I analyze and judge</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1040,7 +1045,7 @@
               </tr>
               <tr>
                 <th scope="row" class="column1">17</th>
-                <td width="20%">Comprensivo</td>
+                <td width="20%">Comprehensive</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1053,7 +1058,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Pragmático</td>
+                <td width="20%">Pragmatic</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1066,7 +1071,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Emocional</td>
+                <td width="20%">Emotional</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1079,7 +1084,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Racional</td>
+                <td width="20%">Rational</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1095,7 +1100,7 @@
               </tr>
               <tr class="odd">
                 <th scope="row" class="column1">18</th>
-                <td width="20%">Busco el contacto</td>
+                <td width="20%">I look for a contact</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1108,7 +1113,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Fabulo posibilidades</td>
+                <td width="20%">Imaging</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1121,7 +1126,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Analizo de forma abstracta</td>
+                <td width="20%">I analyze abstractly</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1134,7 +1139,7 @@
                     max="4"
                   />
                 </td>
-                <td width="20%">Me aseguro de cada paso</td>
+                <td width="20%">I make sure of every step</td>
                 <td width="5%">
                   <input
                     type="number"
@@ -1156,7 +1161,7 @@
                     name="submit"
                     class="pure-material-button-contained button"
                     type="submit"
-                    value="Enviar Respuestas"
+                    value="Submit Response"
                   />
                 </td>
               </tr>
@@ -1166,26 +1171,4 @@
       </fieldset>
     </form>
   </body>
-  <script>
-    function loadContent() {
-      var hash = window.location.hash;
-      var contentDiv = document.getElementById('content');
-
-      if (hash === '#en') {
-        fetch('en.html')
-          .then((response) => response.text())
-          .then((data) => {
-            contentDiv.innerHTML = data;
-          });
-      } else {
-        // Optionally, handle other routes or load default content
-      }
-    }
-
-    // Load content on initial page load
-    loadContent();
-
-    // Listen for hash changes
-    window.addEventListener('hashchange', loadContent);
-  </script>
 </html>
