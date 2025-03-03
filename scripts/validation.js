@@ -1,6 +1,6 @@
 const translations = {
     'es': {
-        'name': 'No olvides llenar el campo de nombre o seudónimo',
+        'name': 'No olvides llenar el campo de nombre',
         'ref': 'No olvides llenar el campo de referencia con el número que te dieron en la sesión',
         'points': 'Revisa tus respuestas. Recuerda que en ninguna fila puedes repetir los valores 1,2,3 y 4'
     },
@@ -10,7 +10,7 @@ const translations = {
         'points': 'Check your answers. Remember that in no row can you repeat the values 1,2,3 and 4'
     },
     'cat': {
-        'name': 'No oblidis omplir el camp de nom o pseudònim',
+        'name': 'No oblidis omplir el camp de nom',
         'ref': 'No oblidis omplir el camp de referència amb el número que et van donar a la sessió',
         'points': 'Revisa les teves respostes. Recorda que en cap fila pots repetir els valors 1,2,3 i 4'
     }

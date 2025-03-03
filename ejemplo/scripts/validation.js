@@ -27,7 +27,7 @@ function nombreForm() {
     const name = document.getElementById("nombre").value;
 
     if (name == "") {
-        alert("No olvides llenar el campo de nombre o seudónimo");
+        alert("No olvides llenar el campo de nombre");
         return false;
     }
 }
